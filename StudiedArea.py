@@ -4,16 +4,16 @@ import ConfigDeserializator
 class Images:
     def __init__(self, tree, node_str):
         self._node = ConfigDeserializator.read_node(tree, node_str)
-        self._flood_image_patch = ConfigDeserializator.read_images_path(self._node)['flood_image']
-        self._non_flood_image_patch = ConfigDeserializator.read_images_path(self._node)['non_flood_image']
+        self._flood_image_path = ConfigDeserializator.read_images_path(self._node)['flood_image']
+        self._non_flood_image_path = ConfigDeserializator.read_images_path(self._node)['non_flood_image']
 
     @property
-    def flood_image_patch(self):
-        return self._flood_image_patch
+    def flood_image_path(self):
+        return self._flood_image_path
 
     @property
     def non_flood_image_patch(self):
-        return self._non_flood_image_patch
+        return self._non_flood_image_path
 
 
 class StudiedArea:
