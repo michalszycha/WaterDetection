@@ -2,26 +2,26 @@
 <data>
     <area name="wizna">
 		<!--Are of interest in WKT from https://search.asf.alaska.edu/#/-->
-        <AreaOfInterest>"POLYGON((22.37 53.24, 22.81 53.30, 22.81 53.54, 22.37 53.49, 22.37 53.24))"</AreaOfInterest>
+        <AreaOfInterest>POLYGON((22.37 53.24, 22.81 53.30, 22.81 53.54, 22.37 53.49, 22.37 53.24))</AreaOfInterest>
 		<DemImage>
-			<PathToImage>"..\\photos\\dem\\wiznadem.tif"</PathToImage>
+			<PathToImage>..\\photos\\dem\\wiznadem.tif</PathToImage>
 		</DemImage>
 		<RadarImages>
-			<Subswatch>"IW1"</Subswatch>
+			<Subswatch>IW1</Subswatch>
 			<FirstBurstIndex>3</FirstBurstIndex>
 			<LastBurstIndex>5</LastBurstIndex>
 			<Slc>
-				<PathToFloodImage>"..\\photos\\sentinel1\\S1B_IW_SLC_20180323.zip"</PathToFloodImage>
-				<PathToNonFloodImage>..\\"photos\\sentinel1\\S1B_IW_SLC_20180404.zip"</PathToNonFloodImage>
+				<PathToFloodImage>..\\photos\\sentinel1\\S1B_IW_SLC_20180323.zip</PathToFloodImage>
+				<PathToNonFloodImage>..\\"photos\\sentinel1\\S1B_IW_SLC_20180404.zip</PathToNonFloodImage>
 			</Slc>
 			<Grd>
-				<PathToFloodImage>"..\\photos\\sentinel1\\S1B_IW_GRDH_20180323.zip"</PathToFloodImage>
-				<PathToNonFloodImage>"..\\photos\\sentinel1\\S1B_IW_GRDH_20180404.zip"</PathToNonFloodImage>
+				<PathToFloodImage>..\\photos\\sentinel1\\S1B_IW_GRDH_20180323.zip</PathToFloodImage>
+				<PathToNonFloodImage>..\\photos\\sentinel1\\S1B_IW_GRDH_20180404.zip</PathToNonFloodImage>
 			</Grd>
 		</RadarImages>
 		<OpticalImages>
-			<PathToFloodImage>"..\\photos\\landsat8\\wizna_08042018_powodz.tif"</PathToFloodImage>
-			<PathToNonFloodImage>"..\\photos\\landsat8\\wizna_15052018_brakPowodzi.tif"</PathToNonFloodImage>
+			<PathToFloodImage>..\\photos\\landsat8\\wizna_08042018_powodz.tif</PathToFloodImage>
+			<PathToNonFloodImage>..\\photos\\landsat8\\wizna_15052018_brakPowodzi.tif</PathToNonFloodImage>
 		</OpticalImages>
     </area>
 </data>
